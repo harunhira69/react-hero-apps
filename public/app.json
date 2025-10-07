@@ -1,0 +1,511 @@
+[
+  {
+    "image": "https://i.ibb.co.com/N2f06CWS/Lucid-Origin-Create-a-vibrant-modern-app-showcase-image-for-Pi-3.jpg",
+    "title": "PixelCraft Studio",
+    "companyName": "CreativeForge Ltd.",
+    "id": 1,
+    "description": "PixelCraft Studio is an AI-powered photo editor designed for professionals and beginners. It features auto-enhancement tools, smart filters, and background removal. Users can create digital illustrations, posters, and photo composites easily. The app includes layer support and HDR tone correction for precision editing. With offline mode and fast exports, it’s ideal for mobile creators.",
+    "size": 85,
+    "reviews": 12400,
+    "ratingAvg": 4.8,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 9200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WvxgHZcG/istockphoto-596384360-612x612.jpg",
+    "title": "SecureVault Pro",
+    "companyName": "CyberShield Systems",
+    "id": 2,
+    "description": "SecureVault Pro is an advanced password and file encryption app. It offers AES-256 security, cloud sync, and biometric protection. Users can generate strong passwords, auto-fill login forms, and back up securely. The built-in dark web scanner alerts users of breaches in real-time. It’s a complete privacy solution for professionals and everyday users alike.",
+    "size": 60,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 7060 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/chYxgRgp/Chat-GPT-Image-Oct-8-2025-04-57-41-AM.png",
+    "title": "FitTrack Elite",
+    "companyName": "HealthSync Co.",
+    "id": 3,
+    "description": "FitTrack Elite helps users monitor health, sleep, and fitness goals. It syncs with smartwatches and wearables for real-time stats. Users can track calories, heart rate, and daily steps easily. The AI coach offers custom workout plans based on personal data. With social challenges and progress charts, staying fit becomes fun and engaging.",
+    "size": 120,
+    "reviews": 15700,
+    "ratingAvg": 4.7,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 11330 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0pkvQWHs/ai-enhances-task-workflow-management-260nw-2650209287.webp",
+    "title": "TaskFlow Manager",
+    "companyName": "NextGen Productivity",
+    "id": 4,
+    "description": "TaskFlow Manager simplifies project and personal task organization. It features drag-and-drop lists, team boards, and real-time updates. Users can assign tasks, track progress, and sync across devices. Smart reminders and progress analytics boost productivity levels. With dark mode and cloud backup, it’s perfect for remote teams and freelancers.",
+    "size": 75,
+    "reviews": 10200,
+    "ratingAvg": 4.5,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 690 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 6870 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kVvYnykb/modern-audio-recording-studio-setup-microphones-mixing-console-sound-wave-display-monitor-showcasing.webp",
+    "title": "SoundWave Studio",
+    "companyName": "EchoBeat Labs",
+    "id": 5,
+    "description": "SoundWave Studio is a full-featured audio editing app for musicians and podcasters. It offers multi-track recording, auto-mix, and sound filters. The smart noise reducer and vocal enhancer improve clarity instantly. Users can publish directly to Spotify or export in multiple formats. Ideal for professionals creating music or podcasts on the go.",
+    "size": 140,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 840 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 7300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/r2FHGYNv/unnamed.webp",
+    "title": "TravelMate Explorer",
+    "companyName": "GlobeTrek Technologies",
+    "id": 6,
+    "description": "TravelMate Explorer helps travelers discover destinations with smart AI suggestions. It includes real-time weather, maps, and local recommendations. Users can build itineraries, book hotels, and share trips with friends. Offline navigation ensures smooth travel even without internet. Perfect for wanderers who love exploring the world stress-free.",
+    "size": 95,
+    "reviews": 9400,
+    "ratingAvg": 4.6,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 640 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 6150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hRPQSRTB/65239a4a4f2795533e015c18-650162cf07be754138521ccc-ai-note.png",
+    "title": "NoteSync Ultra",
+    "companyName": "SkySoft Apps",
+    "id": 7,
+    "description": "NoteSync Ultra is a next-gen note-taking and syncing app. It supports handwriting, audio notes, and AI-based text summarization. Users can organize projects with tags, folders, and reminders. The app automatically backs up notes across devices in real time. Designed for students, writers, and professionals who value productivity.",
+    "size": 70,
+    "reviews": 7800,
+    "ratingAvg": 4.5,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 610 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 4900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WvzzZ3QK/Lucid-Origin-A-futuristic-AIpowered-stock-market-dashboard-int-0.jpg",
+    "title": "MarketMind AI",
+    "companyName": "DataVision Analytics",
+    "id": 8,
+    "description": "MarketMind AI offers intelligent market analysis and stock predictions. It uses machine learning to track trends and forecast movements. Users get personalized alerts, charts, and portfolio insights. The AI engine processes real-time data from global exchanges. It’s the ultimate tool for traders and investors seeking data-driven results.",
+    "size": 110,
+    "reviews": 16700,
+    "ratingAvg": 4.9,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 580 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 13140 }
+    ]
+  },
+    {
+    "image": "https://i.ibb.co.com/1Y822GKm/neil-mewes-w6-YAP-1wkc-I-unsplash.jpg",
+    "title": "PhotoFusion Pro",
+    "companyName": "Visionary Pixels",
+    "id": 9,
+    "description": "PhotoFusion Pro is a creative editing suite that combines AI filters and layer tools for professional-grade retouching. Includes one-tap lighting correction and object removal for seamless edits.",
+    "size": 95,
+    "reviews": 14200,
+    "ratingAvg": 4.7,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 8700 }
+    ]
+  },
+    {
+    "image": "https://i.ibb.co.com/8g8dj5BC/original-74316218ff320f2d34be3559069537a0.webp",
+    "title": "TaskZen Planner",
+    "companyName": "NextLevel Apps",
+    "id": 10,
+    "description": "TaskZen Planner is a minimalist productivity tool that helps organize daily goals, set smart reminders, and visualize progress using AI insights. Ideal for students and remote teams.",
+    "size": 80,
+    "reviews": 9600,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 810 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 5780 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/d4jMXFNZ/egor-komarov-Qsh64p-Ru6-CE-unsplash.jpg",
+    "title": "SoundForge Mobile",
+    "companyName": "EchoByte Studios",
+    "id": 11,
+    "description": "SoundForge Mobile brings advanced mixing and mastering tools to your phone. Includes reverb, equalizer, pitch correction, and one-tap noise reduction for podcasters and musicians.",
+    "size": 130,
+    "reviews": 11800,
+    "ratingAvg": 4.8,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 860 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 7680 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NgvnMcRC/images-15.jpg",
+    "title": "MindEase",
+    "companyName": "Serenity Labs",
+    "id": 12,
+    "description": "MindEase helps users manage stress and improve focus with guided meditations, breathing exercises, and AI-based mood tracking. Daily insights promote mindfulness and balance.",
+    "size": 65,
+    "reviews": 10400,
+    "ratingAvg": 4.6,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 6950 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/mVXTv75D/images-16.jpg",
+    "title": "EduMentor AI",
+    "companyName": "Learnify Systems",
+    "id": 13,
+    "description": "EduMentor AI provides personalized study plans, real-time quizzes, and video lectures. Its AI engine adapts lessons to student performance and learning style for better results.",
+    "size": 150,
+    "reviews": 13200,
+    "ratingAvg": 4.8,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 660 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 9980 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/Cp2nP9rG/Lucid-Origin-A-sleek-modern-app-interface-called-Food-Mate-disp-3.jpg",
+    "title": "FoodMate",
+    "companyName": "ByteBite Co.",
+    "id": 14,
+    "description": "FoodMate recommends healthy recipes based on dietary preferences and available ingredients. It offers AI meal planning, calorie tracking, and grocery integration.",
+    "size": 105,
+    "reviews": 11200,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 750 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 7820 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/n86PM2cR/Lucid-Origin-A-modern-travel-app-interface-called-Travel-Go-Nav-2.jpg",
+    "title": "TravelGo Navigator",
+    "companyName": "GlobePath Ltd.",
+    "id": 15,
+    "description": "TravelGo Navigator offers real-time route planning, offline maps, and AI itinerary suggestions. It helps travelers find hidden spots and track trips with ease.",
+    "size": 90,
+    "reviews": 8700,
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 640 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7FLL9mL/Lucid-Origin-A-sleek-fintech-app-interface-called-Finance-Flow-3.jpg",
+    "title": "FinanceFlow",
+    "companyName": "SmartWealth Tech",
+    "id": 16,
+    "description": "FinanceFlow tracks spending, investments, and savings with real-time analytics. Users can create budgets, get tax reports, and monitor stock portfolios with AI insights.",
+    "size": 110,
+    "reviews": 15800,
+    "ratingAvg": 4.7,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 9590 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/0pSP5qQB/Lucid-Origin-A-modern-productivity-app-interface-called-Docu-Li-1.jpg",
+    "title": "DocuLink",
+    "companyName": "CloudSync Apps",
+    "id": 17,
+    "description": "DocuLink allows seamless document collaboration with live editing, AI proofreading, and secure cloud storage. Perfect for teams and professionals on the go.",
+    "size": 100,
+    "reviews": 9400,
+    "ratingAvg": 4.5,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 790 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 5770 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ynfpwxQz/Lucid-Origin-A-futuristic-AIpowered-music-discovery-app-called-1.jpg",
+    "title": "MusicSphere",
+    "companyName": "MelodySoft Ltd.",
+    "id": 18,
+    "description": "MusicSphere is a personalized music discovery app powered by AI recommendations and audio fingerprinting. It curates playlists and suggests songs that fit your mood.",
+    "size": 125,
+    "reviews": 15400,
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 9580 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/rRHwwbKz/Lucid-Origin-A-stunning-visual-of-a-futuristic-mobile-app-call-0.jpg",
+    "title": "Artify Draw",
+    "companyName": "CanvasVerse",
+    "id": 19,
+    "description": "Artify Draw brings vector art creation to mobile. Includes pen tools, shape guides, and export options. AI-based sketch correction makes design work effortless.",
+    "size": 95,
+    "reviews": 8100,
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5880 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/27Djtscm/Lucid-Origin-A-hyperrealistic-mockup-of-a-mobile-and-desktop-a-1.jpg",
+    "title": "GameTrack Live",
+    "companyName": "LevelUp Studio",
+    "id": 20,
+    "description": "GameTrack Live tracks gaming stats, updates, and achievements across platforms. Includes leaderboards, session analysis, and social sharing for gamers.",
+    "size": 140,
+    "reviews": 13200,
+    "ratingAvg": 4.7,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 9240 }
+    ]
+  },
+    {
+    "image": "https://i.ibb.co.com/Mxkz6Sws/Chat-GPT-Image-Oct-8-2025-04-24-27-AM.png",
+    "title": "FitFuel",
+    "companyName": "HealthCraft Co.",
+    "id": 21,
+    "description": "FitFuel helps users plan fitness-friendly meals based on daily activity levels. Integrated with smartwatches for calorie sync and nutrient tracking.",
+    "size": 88,
+    "reviews": 9100,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 7430 }
+    ]
+  },
+
+   {
+    "image": "https://i.ibb.co.com/Hfqn8G2c/Chat-GPT-Image-Oct-8-2025-04-29-46-AM.png",
+    "title": "ShopSmart",
+    "companyName": "Dealify Global",
+    "id": 22,
+    "description": "ShopSmart scans barcodes, compares prices, and finds real-time deals. Includes AI-powered coupon recommendations and cashback integration.",
+    "size": 75,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 730 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 5510 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/HLwqTJdj/Lucid-Origin-A-futuristic-AIpowered-language-app-interface-cal-3.jpg",
+    "title": "LangLink",
+    "companyName": "PolyLingua AI",
+    "id": 23,
+    "description": "LangLink translates voice, images, and text in real time. It also helps users learn languages interactively with AI conversation partners.",
+    "size": 98,
+    "reviews": 14500,
+    "ratingAvg": 4.8,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 9670 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jPbkJsny/Lucid-Origin-A-dynamic-digital-illustration-showing-a-streamer-2.jpg",
+    "title": "StreamCast",
+    "companyName": "VidNova",
+    "id": 24,
+    "description": "StreamCast allows users to broadcast live with overlays, chat sync, and AI background removal. Supports Twitch, YouTube, and Facebook streaming.",
+    "size": 160,
+    "reviews": 15800,
+    "ratingAvg": 4.7,
+    "downloads": "11M",
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 9180 }
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/5bPPDfY/Chat-GPT-Image-Oct-8-2025-04-38-57-AM.png",
+    "title": "CryptoPulse",
+    "companyName": "BlockSync Analytics",
+    "id": 25,
+    "description": "CryptoPulse provides crypto market alerts, real-time coin tracking, and portfolio management. Uses AI to analyze blockchain trends and predict volatility.",
+    "size": 120,
+    "reviews": 17100,
+    "ratingAvg": 4.9,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 550 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 13570 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yB4DFNLj/Lucid-Origin-A-sleek-modern-mobile-app-interface-named-Eco-Trac-2.jpg",
+    "title": "EcoTrack",
+    "companyName": "GreenMinds",
+    "id": 26,
+    "description": "EcoTrack helps users reduce their carbon footprint with daily sustainability tips, CO₂ tracking, and eco-friendly shopping suggestions.",
+    "size": 70,
+    "reviews": 8300,
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 650 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 6180 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/j9KVBPR2/Chat-GPT-Image-Oct-8-2025-04-44-03-AM.png",
+    "title": "TimeKeeper Pro",
+    "companyName": "Clockify Systems",
+    "id": 27,
+    "description": "TimeKeeper Pro tracks work hours, schedules breaks, and generates productivity reports. Perfect for freelancers, businesses, and remote workers.",
+    "size": 90,
+    "reviews": 10100,
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 7420 }
+    ]
+  },
+    {
+    "image": "https://i.ibb.co.com/hR5MRmbr/Chat-GPT-Image-Oct-8-2025-04-45-31-AM.png",
+    "title": "BookNest",
+    "companyName": "LitVerse",
+    "id": 28,
+    "description": "BookNest lets readers discover, rate, and share books across genres. Offers AI-based recommendations, offline reading, and audiobook integration.",
+    "size": 85,
+    "reviews": 11900,
+    "ratingAvg": 4.8,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 680 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 9510 }
+    ]
+  }
+
+  
+]
+
+
