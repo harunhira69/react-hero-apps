@@ -5,7 +5,7 @@ import { Github } from 'lucide-react';
 
 const Navbar = () => {
     return (
-       <div className="navbar bg-base-100  shadow-sm">
+       <div className="navbar bg-base-100 shadow-sm fixed top-0 left-0 w-full z-50">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,9 +26,9 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-     <li><Link className=' font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Home</Link></li>
-       <li><Link className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Apps</Link></li>
-       <li><Link className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Installation</Link></li>
+     <li><Link to='/home' className=' font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Home</Link></li>
+       <li><Link to='/apps' className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Apps</Link></li>
+       <li><Link to='/install' className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Installation</Link></li>
     </ul>
   </div>
   <div className="navbar-end flex mr-5">

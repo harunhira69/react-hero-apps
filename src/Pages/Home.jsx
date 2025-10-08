@@ -1,9 +1,13 @@
 import React from 'react';
 
+import AppsCard from './AppCart/AppsMap';
+import Banner from './Banner';
+
 const Home = () => {
     return (
-        <div>
-            <h3>I am from Home</h3>
+        <div className='bg-[#D2D2D2]'>
+            <Banner></Banner>
+          <AppsCard></AppsCard>
         </div>
     );
 };
