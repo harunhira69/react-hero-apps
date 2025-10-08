@@ -1,9 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router';
+import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router';
 import logo from '../assets/logo.png'
 import { Github } from 'lucide-react';
 
 const Navbar = () => {
+  const activeClass = "border-b-2 border-red-500";
     return (
        <div className="navbar bg-base-100 shadow-sm fixed top-0 left-0 w-full z-50">
   <div className="navbar-start">
@@ -14,9 +15,37 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-       <li><Link className=' font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Home</Link></li>
-       <li><Link className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Apps</Link></li>
-       <li><Link className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Installation</Link></li>
+            <li>            <NavLink
+              to="/home"
+              className={({ isActive }) =>
+                `font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent ${
+                  isActive ? activeClass : ""
+                }`
+              }
+            >
+              Home
+            </NavLink>
+</li>
+       <li><NavLink
+              to="/apps"
+              className={({ isActive }) =>
+                `font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent ${
+                  isActive ? activeClass : ""
+                }`
+              }
+            >
+              Apps
+            </NavLink></li>
+       <li><NavLink
+              to="/install"
+              className={({ isActive }) =>
+                `font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent ${
+                  isActive ? activeClass : ""
+                }`
+              }
+            >
+              Installation
+            </NavLink></li>
       </ul>
     </div>
       <div className='flex items-center ml-5  gap-2'>
@@ -26,13 +55,48 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-     <li><Link to='/home' className=' font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Home</Link></li>
-       <li><Link to='/apps' className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Apps</Link></li>
-       <li><Link to='/install' className='font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent'>Installation</Link></li>
+     <li>            <NavLink
+              to="/home"
+              className={({ isActive }) =>
+                `font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent ${
+                  isActive ? activeClass : ""
+                }`
+              }
+            >
+              Home
+            </NavLink>
+</li>
+       <li><NavLink
+              to="/apps"
+              className={({ isActive }) =>
+                `font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent ${
+                  isActive ? activeClass : ""
+                }`
+              }
+            >
+              Apps
+            </NavLink></li>
+       <li><NavLink
+              to="/install"
+              className={({ isActive }) =>
+                `font-bold hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent ${
+                  isActive ? activeClass : ""
+                }`
+              }
+            >
+              Installation
+            </NavLink></li>
     </ul>
   </div>
   <div className="navbar-end flex mr-5">
-    <button className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-[4px] w-[145px] text-center p-1 "> <span className='flex items-center gap-2'><Github className='rounded-full' /> Contribute</span>  </button>
+   <a
+          href="https://github.com/harunhira69"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-[4px] w-[145px] text-center p-1 hover:opacity-90 transition"
+        >
+     <span className='flex items-center gap-2'>
+      <Github className='rounded-full' /> Contribute</span>  </a>
   </div>
 </div>
     );

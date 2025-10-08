@@ -43,7 +43,7 @@ const Allapps = () => {
 
        
         {
-          term&& !searchApps[0]?<AppsNotFound></AppsNotFound>:      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10  mx-auto'>
+          term&& !searchApps[0]?<h3 className='text-4xl text-center font-bold'>No App Found</h3>:      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10  mx-auto'>
         {searchApps.map(app=>(
            <Link key={app.id} to={`/apps/${app.id}`}>
                <div className=' bg-white rounded-2xl shadow-2xl p-4'>

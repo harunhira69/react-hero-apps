@@ -1,3 +1,6 @@
+import { toast } from "react-toastify"
+ import { ToastContainer } from 'react-toastify';
+
 // get
 export const loadApplist = () => {
   try {
@@ -15,7 +18,10 @@ export const updateList = product => {
 
   try {
     const isDuplicate = appList.some(p => p.id === product.id)
-    if (isDuplicate) return alert('Already added in applist')
+    if (isDuplicate) {
+      alert('Already added this app!');
+      return;
+    }
     const updatedApplist = [...appList, product]
     localStorage.setItem('applist', JSON.stringify(updatedApplist))
   } catch (err) {

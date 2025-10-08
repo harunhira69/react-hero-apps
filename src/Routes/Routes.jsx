@@ -1,16 +1,16 @@
 import React from 'react';
 import { createBrowserRouter } from "react-router";
-import Navbar from '../Component/Navbar';
+
 import Root from '../Layout/Root';
 import ErrorHandling from '../Pages/ErrorHandling';
 
-import AppCards from '../Pages/AppCart/AppCards';
-import AppsFound from '../Pages/AppDetails';
+
 import Install from '../Pages/AppCart/Install';
-import AppsCard from '../Pages/AppCart/AppsMap';
+
 import Home from '../Pages/Home';
 import Allapps from '../Pages/Allapps';
-import AppDetails from '../Pages/AppDetails';
+
+import CardDetails from '../Pages/CardDetails';
 
 
 const router = createBrowserRouter([
@@ -19,6 +19,10 @@ const router = createBrowserRouter([
    element:<Root></Root>,
    errorElement:<ErrorHandling></ErrorHandling>,
    children:[
+    {
+     index:true,
+     Component:Home
+    },
     {
       path:'/home',
      Component:Home
@@ -30,11 +34,11 @@ const router = createBrowserRouter([
 
     {
       path:'/apps/:id',
-      Component:AppDetails
+      Component:CardDetails
     },
     {
       path:'/install',
-      Component:AppDetails
+      Component:Install
     }
    ]
    

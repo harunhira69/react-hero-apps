@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import useApps from '../../Hooks/useApps';
 import AppCards from './AppCards';
 import { useNavigate } from 'react-router';
+import { toast } from 'react-toastify';
 
 const AppsCard = () => {
   const { apps, loading, error } = useApps()
-  const [showAll,setShowAll] = useState(false)
+ 
   const navigate = useNavigate()
   const trendingApps = apps.slice(0,8)
 
- 
+
   
   if(loading) return <p>Loading....</p>
   if(error) return <p>error page...</p>
@@ -23,7 +24,7 @@ const AppsCard = () => {
        {/* map-section */}
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10  mx-auto'>
         {trendingApps.map(app=>(
-            <AppCards key={app.id} app={app}></AppCards>
+            <AppCards onClick={()=>toast.success("Congratulations! Now we can see the card details.")} key={app.id} app={app}></AppCards>
         ))}
             
         </div>

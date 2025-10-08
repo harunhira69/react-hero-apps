@@ -9,8 +9,20 @@ const Banner = () => {
             <h3 className='text-[72px]'>We Build <br></br> <span className=' bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-[70px]'>Productive</span> Apps</h3>
             <p className='text-[#626482] '>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br></br>Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className='flex gap-4 mt-8 justify-center'>
-                <button className='btn btn-outline border-1 text-[#001931] font-bold'><img className='w-8 h-8' src={playstore} alt="" />Google Play</button>
-                <button className='btn-outline btn border-1 text-[#001931] font-bold'><img className='w-8 h-8' src={appstore} alt="" />App Store</button>
+                   <a
+          href="https://play.google.com/store"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+                <button className='btn btn-outline border-1 text-[#001931] font-bold'>
+                    <img className='w-8 h-8' src={playstore} alt="" />Google Play</button></a>
+                      <a
+          href="https://www.apple.com/app-store/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > 
+                <button className='btn-outline btn border-1 text-[#001931] font-bold'>
+                    <img className='w-8 h-8' src={appstore} alt="" />App Store</button></a>
             </div>
             <div className='mt-10' >
                 <img className='mx-auto' src={hero} alt="" />
