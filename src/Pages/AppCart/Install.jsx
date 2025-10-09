@@ -8,6 +8,7 @@ import AppsNotFound from '../AppsNotFound';
 const Install = () => {
     const appList = loadApplist();
     const [sortOrder,setSortOrder] = useState('none')
+    const [loading,setLoading] = useState(false)
     const handleUninstall = (id)=>{
         removeFromApplist(id)
         window.location.reload();
