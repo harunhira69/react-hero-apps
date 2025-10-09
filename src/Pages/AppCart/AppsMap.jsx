@@ -4,6 +4,7 @@ import AppCards from './AppCards';
 import { useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
 import LoadingSpinner from '../LoadingSpinner';
+import ErrorHandling from '../ErrorHandling';
 
 const AppsCard = () => {
   const { apps, loading, error } = useApps()
@@ -14,7 +15,7 @@ const AppsCard = () => {
 
   
   if(loading) return <LoadingSpinner></LoadingSpinner>
-  if(error) return <p>error page...</p>
+  if(error) return <ErrorHandling></ErrorHandling>
 
      return (
     <div className=''>

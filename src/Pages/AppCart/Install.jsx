@@ -7,17 +7,19 @@ import { toast } from 'react-toastify';
 
 
 const Install = () => {
-    const appList = loadApplist();
+   const [appList,setAppList] = useState(loadApplist())
     const [sortOrder,setSortOrder] = useState('none')
-    const [loading,setLoading] = useState(false)
+
 
 
 
     // uninstall
     const handleUninstall = (id)=>{
         removeFromApplist(id)
-        window.location.reload();
-        toast("Uninstall Successfully")
+          toast("Uninstall Successfully")
+        // window.location.reload();
+        setAppList(prev=>prev.filter(app=>app.id!==id))
+      
      
     }
    
