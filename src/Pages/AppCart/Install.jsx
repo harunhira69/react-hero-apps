@@ -3,17 +3,24 @@ import { loadApplist, removeFromApplist } from '../../utils/localStorage';
 import iconDownloads from '../../assets/icon-downloads.png'
 import rating from '../../assets/icon-ratings.png'
 import AppsNotFound from '../AppsNotFound';
+import { toast } from 'react-toastify';
 
 
 const Install = () => {
     const appList = loadApplist();
     const [sortOrder,setSortOrder] = useState('none')
     const [loading,setLoading] = useState(false)
+
+
+
+    // uninstall
     const handleUninstall = (id)=>{
         removeFromApplist(id)
         window.location.reload();
+        toast("Uninstall Successfully")
      
     }
+   
     const getSortedList =()=>{
       const sorted = [...appList]
       const parseDownloads = (value)=>{
