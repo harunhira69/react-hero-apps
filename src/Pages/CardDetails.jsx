@@ -111,7 +111,9 @@ const {image,title,downloads,companyName,reviews,size,ratings,description, ratin
       
             
              </div>
+         
            </div>
+               <hr className='border-t-2 border-gray-400 my-6 w-full' />
            {/* chart */}
             <div className='mt-5'>
             <h3
@@ -138,6 +140,7 @@ const {image,title,downloads,companyName,reviews,size,ratings,description, ratin
 </ComposedChart>
       </ResponsiveContainer>
             </div> 
+               <hr className='border-t-2 border-gray-400 my-6 w-full' />
  
            </div> 
 
