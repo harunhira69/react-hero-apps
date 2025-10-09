@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import useApps from '../Hooks/useApps';
-import { useNavigate, useParams } from 'react-router';
+import {  useParams } from 'react-router';
 import downloadimg from '../assets/icon-downloads.png'
 import ratingsimg from '../assets/icon-ratings.png'
 import review from '../assets/icon-review.png'
@@ -66,8 +66,8 @@ const {image,title,downloads,companyName,reviews,size,ratings,description, ratin
     
     return (
         <div className='mt-5 bg-[#D2D2D2]'>
-             <div className='flex gap-5 items-center '>
-           <img className='w-40 h-45' src={image} alt="" />
+             <div className='flex flex-col sm:flex-row items-start sm:items-center gap-6 p-10 rounded-lg  '>
+           <img className='w-full sm:w-40 h-auto mt-5   sm:h-45 object-cover rounded-md' src={image} alt="" />
            <div className=''>
             <h3 className='text-3xl font-bold'>{title}</h3>
             <p>Developed by:{companyName}</p>
@@ -144,8 +144,8 @@ const {image,title,downloads,companyName,reviews,size,ratings,description, ratin
 
 
            <div>
-            <h3 className='text-2xl font-bold'>Description</h3>
-            <p className='mt-2'>{description}</p>
+            <h3 className='sm:text-2xl md:text-3xl text-xl  font-bold'>Description</h3>
+            <p className='mt-2 text-base sm:text-lg md:text-xl'>{description}</p>
            </div>
         </div>
      

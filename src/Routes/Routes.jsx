@@ -11,13 +11,14 @@ import Home from '../Pages/Home';
 import Allapps from '../Pages/Allapps';
 
 import CardDetails from '../Pages/CardDetails';
+import ShowError from '../Pages/ShowError';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
    element:<Root></Root>,
-   errorElement:<ErrorHandling></ErrorHandling>,
+   errorElement:<ShowError></ShowError>,
    children:[
     {
      index:true,

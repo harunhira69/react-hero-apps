@@ -3,6 +3,7 @@ import useApps from '../../Hooks/useApps';
 import AppCards from './AppCards';
 import { useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
+import LoadingSpinner from '../LoadingSpinner';
 
 const AppsCard = () => {
   const { apps, loading, error } = useApps()
@@ -12,7 +13,7 @@ const AppsCard = () => {
 
 
   
-  if(loading) return <p>Loading....</p>
+  if(loading) return <LoadingSpinner></LoadingSpinner>
   if(error) return <p>error page...</p>
 
      return (
@@ -22,7 +23,7 @@ const AppsCard = () => {
          <p className='text-2xl mt-2'>Explore All Trending Apps on the Market developed by us</p>
        </div>
        {/* map-section */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10  mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10 px-5  mx-auto'>
         {trendingApps.map(app=>(
             <AppCards onClick={()=>toast.success("Congratulations! Now we can see the card details.")} key={app.id} app={app}></AppCards>
         ))}

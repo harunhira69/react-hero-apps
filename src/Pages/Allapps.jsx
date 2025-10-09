@@ -4,6 +4,7 @@ import icons from '../assets/icon-downloads.png'
 import rating from '../assets/icon-ratings.png'
 import { Link } from 'react-router';
 import AppsNotFound from './AppsNotFound';
+import LoadingSpinner from './LoadingSpinner';
 
 const Allapps = () => {
     const {apps,loading,error} = useApps();
@@ -16,15 +17,15 @@ const Allapps = () => {
 
 
 
-    if(loading)return <p>Loading</p>
+    if(loading)return <LoadingSpinner></LoadingSpinner>
     if(error) return<p>Error....</p>
     return (
-        <div className='mt-10'>
-              <div className='text-center mt-10'>
-         <h3 className='font-bold text-5xl'>Our All Application</h3>
-         <p className='text-2xl mt-2'>Explore All Apps on the Market developed by us. We code for Millions</p>
+        <div className='bg-[#D2D2D2] px-4 sm:px-6 lg:px-8 sm:p-5'>
+              <div className='text-center mt-16'>
+         <h3 className='font-bold text-3xl sm:text-4xl lg:text-5xl md:text-5xl'>Our All Application</h3>
+         <p className='lg:text-2xl md:text-xl text-base sm:text-lg  mt-2'>Explore All Apps on the Market developed by us. We code for Millions</p>
        </div>
-      <div className='flex justify-between py-5 items-center'>
+      <div className='flex flex-col sm:flex-row justify-between py-5 items-center'>
         <h1 className='text-3xl font-semibold'>
           All Products{' '}
           <span className='text-sm text-gray-500'>
@@ -43,7 +44,7 @@ const Allapps = () => {
 
        
         {
-          term&& !searchApps[0]?<h3 className='text-4xl text-center font-bold'>No App Found</h3>:      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10  mx-auto'>
+          term&& !searchApps[0]?<AppsNotFound/>:      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10  mx-auto'>
         {searchApps.map(app=>(
            <Link key={app.id} to={`/apps/${app.id}`}>
                <div className=' bg-white rounded-2xl shadow-2xl p-4'>

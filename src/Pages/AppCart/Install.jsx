@@ -15,27 +15,35 @@ const Install = () => {
     }
     const getSortedList =()=>{
       const sorted = [...appList]
+      const parseDownloads = (value)=>{
+        if(typeof value ==="string"){
+          value=value.toUpperCase().trim();
+          if(value.endsWith("M")) return parseFloat(value)* 1000000;
+          return parseFloat(value)
+        }
+        return value;
+      }
       if(sortOrder==='low-high'){
-        sorted.sort((a,b)=>a.size-b.size)
+        sorted.sort((a,b)=>parseDownloads(a.downloads)-parseDownloads(b.downloads))
       }
       else if(sortOrder==='high-low'){
-        sorted.sort((a,b)=>b.size-a.size)
+        sorted.sort((a,b)=>parseDownloads(b.downloads)-parseDownloads(a.downloads))
       }
       return sorted;
     
     }
       const sortedList = getSortedList()
     return (
-          <div className='bg-[#D2D2D2]'>
-                 <div className='text-center mt-10'>
+          <div className='bg-[#D2D2D2] min-h-screen'>
+                 <div className='text-center mt-15  py-10'>
                 <h3 className='font-bold text-5xl'>Your Installed Apps</h3>
                 <p className='text-2xl mt-2'>Explore All Trending Apps on the Market developed by us</p>
               </div>
-               <div className='flex justify-between py-5 items-center'>
+               <div className='flex justify-between py-5 px-5 items-center'>
                <h1 className='text-3xl font-semibold'>
                  Apps{' '}
                  <span className='text-sm text-gray-500'>
-                    {sortedList.length} Products Found.
+                    {sortedList.length} Apps Found.
                  </span>
                </h1>
        
@@ -54,9 +62,9 @@ const Install = () => {
              </div>
                 {
                     sortedList.length===0?<AppsNotFound/>:sortedList.map(a=>
-                         <div className='bg-white flex items-center justify-between p-5 mb-3 rounded-md shadow-sm'>
+                         <div className='bg-white  flex items-center justify-between  m-5 p-5  rounded-md shadow-sm'>
                  
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center mb-3 gap-4'>
                       <div className='flex items-center gap-4'>
                     <img className='w-12 h-12 rounded-md ' src={a.image} alt="" />
                    </div>
